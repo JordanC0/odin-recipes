@@ -4,13 +4,14 @@
 
 body {
     background: lightgray;
+    padding: 20px;
 }
 
 h1 {
     text-align: center;
     background-color: black;
     color: white;
-    margin: auto;
+    margin-bottom: 5px;
     padding: 5px;
     
 }
@@ -30,4 +31,16 @@ a:hover {
 
 img {
     width: 100%;
+}
+
+li {
+    line-height: 1.5;
+}
+
+.recipe-card {
+    width: 600px;
+    text-align: center;
+    background-color: white;
+    margin: 20px auto;
+    padding: 50px;
 }
